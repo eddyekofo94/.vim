@@ -119,7 +119,7 @@ let g:which_key_map.l = {
       \ 'L' : [':Lspsaga show_line_diagnostics'       , 'line_diagnostics']        ,
       \ 'p' : [':Lspsaga preview_definition'          , 'preview definition']      ,
       \ 'q' : [':Telescope quickfix'                  , 'quickfix']                ,
-      \ 'r' : [':Lspsaga rename'                      , 'rename']                  ,
+      \ 'r' : ['<Plug>(coc-rename)'                      , 'rename']                  ,
       \ 't' : [':LspTroubleToggle'                    , 'trouble']                 ,
       \ 'T' : [':LspTypeDefinition'                   , 'type defintion']          ,
       \ 'x' : [':cclose'                              , 'close quickfix']          ,
