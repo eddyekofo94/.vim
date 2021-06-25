@@ -117,8 +117,8 @@ nmap <silent><leader>/ :Commentary<CR>
 xmap <silent><leader>/ :Commentary<CR>
 
 " TODO: fix adding lines above & below
-" nmap <silent><leader>oo :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
-" nmap <silent><leader>OO :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
+nmap <silent><leader>oo :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
+nmap <silent><leader>OO :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
 
 nmap <silent><C-o> :CocCommand clangd.switchSourceHeader<CR>
 nmap <S-x> :bdelete<CR>
@@ -129,13 +129,6 @@ noremap <c-up> <c-w>+
 noremap <c-down> <c-w>-
 noremap <c-left> <c-w>>
 noremap <c-right> <c-w><
-
-" NOTE: Look into this, it looks like a good idea
-" Pressing the letter o will open a new line below the current one.
-" Exit insert mode after creating a new line above or below the current line.
-" INFO: Messes up the auto indent
-" nnoremap o o<esc>
-" nnoremap O O<esc>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
