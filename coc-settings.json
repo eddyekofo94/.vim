@@ -1,7 +1,11 @@
 {
-  "clangd.arguments":["--background-index", "--suggest-missing-includes" , "--clang-tidy", "--header-insertion=iwyu"]
-    ,"clangd.semanticHighlighting": true,
+  "clangd.arguments":["--background-index", "--suggest-missing-includes" , "--clang-tidy", "--header-insertion=iwyu"],
+    "clangd.semanticHighlighting": true,
     "explorer.icon.enableNerdfont": false,
     "explorer.icon.enableVimDevicons": true,
-    "explorer.file.column.indent.indentLine": true
+    "explorer.file.column.indent.indentLine": true,
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign":"",
+    "diagnostic.hintSign": ""
 }
