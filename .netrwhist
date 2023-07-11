@@ -8,5 +8,3 @@ let g:netrw_dirhist_6='/Users/eddyekofo/Documents/Programming/algorithms_and_dat
 let g:netrw_dirhist_5='/Users/eddyekofo/Documents/Programming/algorithms_and_datastructures/DataStructures/LinkedList/src/sources'
 let g:netrw_dirhist_4='/Users/eddyekofo/Documents/Programming/algorithms_and_datastructures/DataStructures/LinkedList/src'
 let g:netrw_dirhist_3='/Users/eddyekofo/.vim/after/plugin'
-let g:netrw_dirhist_2='/Users/eddyekofo/.vim/after'
-let g:netrw_dirhist_1='/Users/eddyekofo/Documents/Programming/algorithms_and_datastructures/Algorithms/CPP/Algorithm'
